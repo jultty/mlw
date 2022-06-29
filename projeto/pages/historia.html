@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="ptBR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../assets/css/estilo.css">
+    <title>História do JavaScript &mdash; Projeto MLW</title>
+</head>
+<body>
+
+    <div id="container">
+        <header>
+            <h1>JavaScript</h1>
+        </header>
+        <nav>
+            <ul>
+                <li><a href="../index.html">Início</a></li>
+                <li><a href="#">História</a></li>
+                <li><a href="caracteristicas.html">Características</a></li>
+                <li><a href="aplicacoes.html">Aplicações</a></li>
+            </ul>
+        </nav>
+        <main>
+            <h2>História</h2>
+            <p>O JavaScript foi inicialmente desenvolvido pelas empresas Sun Microsystems (depois adquirida pela Oracle) em conjunto com a Netscape Communications, que à época eram, respectivamente, a principal desenvolvedora de soluções na linguagem Java e a líder no mercado de navegadores web.</p>
+            <p>O JavaScript foi originalmente concebido como uma interface de <em>scripting</em> entre páginas web carregadas no navegador (o Netscape, à época) e a aplicação no servidor. A primeira versão lançada em 1995 tornou o JavaScript uma linguagem central do desenvolvimento web que mais tarde passaria a ser usada de forma nativa em servidores e dispositivos móveis.</p>
+            <p>À época de suas primeiras formulações, a Netscape enviou a especificação da linguagem para ser padronizada na ECMA, um órgão europeu formado por fabricantes de computadores. Devido ao nome "JavaScript" ser uma marca registrada da Sun, a versão padronizada da linguagem recebeu o nome de "ECMAScript".</p>
+            
+            <table class="historico-ecma">
+                <tr>
+                    <th>Edição</th>
+                    <th>Ano</th>
+                    <th>Atualizações*</th>
+                </tr>
+                <tr>
+                    <td>ES1</td>
+                    <td>1997</td>
+                    <td class="texto-pequeno">Criação da especificação</td>
+                </tr>
+                <tr>
+                    <td>ES2</td>
+                    <td>1998</td>
+                    <td class="texto-pequeno">Padronização com as normas internacionais</td>
+                </tr>
+                <tr>
+                    <td>ES3</td>
+                    <td>1999</td>
+                    <td class="texto-pequeno">Expressões regulares, tratamento de exceções, formatação de dados numéricos</td>
+                </tr>
+                <tr>
+                    <td>ES4</td>
+                    <td>2003</td>
+                    <td class="texto-pequeno">Nunca publicada</td>
+                </tr>
+                <tr>
+                    <td>ES5</td>
+                    <td>2009</td>
+                    <td class="texto-pequeno">Serialização JSON, protótipos de vetores, funções para listar propriedades de objetos</td>
+                </tr>
+                <tr>
+                    <td>ES5.1</td>
+                    <td>2011</td>
+                    <td class="texto-pequeno">Padronização com as normas internacionais</td>
+                </tr>
+                <tr>
+                    <td>ES6</td>
+                    <td>2015</td>
+                    <td class="texto-pequeno">Suporte aprimorado à orientação a objetos</td>
+                </tr>
+                <tr>
+                    <td>ES7</td>
+                    <td>2016</td>
+                    <td class="texto-pequeno">Escopos de bloco, desestruturação, operador de potenciação <code>**</code></td>
+                </tr>
+                <tr>
+                    <td>ES8</td>
+                    <td>2017</td>
+                    <td class="texto-pequeno">Novos métodos nativos para objetos, funcionalidades de concorrência, linearização, <code>async</code> e <code>await</code></td>
+                </tr>
+                <tr>
+                    <td>ES9</td>
+                    <td>2018</td>
+                    <td class="texto-pequeno">Operador <em>spread</em> <code>...</code>, iteração assíncrona, melhorias para expressões regulares</td>
+                </tr>
+                <tr>
+                    <td>ES10</td>
+                    <td>2019</td>
+                    <td class="texto-pequeno">Melhorias em funções de vetores, método <code>bject.fromEntries</code></td>
+                </tr>
+                <tr>
+                    <td>ES11</td>
+                    <td>2020</td>
+                    <td class="texto-pequeno">Novo tipo primitivo <code>BigInt</code>, novas funções nativas, possibilidade de encadear as propriedades ao acessar um objeto</td>
+                </tr>
+                <tr>
+                    <td>ES12</td>
+                    <td>2021</td>
+                    <td class="texto-pequeno">Novo método <code>replaceAll</code> para <em>strings</em>, novo tipo de erro <code>AggregateError</code> para múltiplos erros juntos, operadores lógicos de atribuição <code>??=</code>, <code>&&=</code> e <code>||=</code> </td>
+                </tr>
+                <tr>
+                    <td>ES13</td>
+                    <td>2022</td>
+                    <td class="texto-pequeno">Novos campos para classes, novo método nativo <code>hasOwn</code> para objetos, <em>flag</em> <code>/d</code> para trabalhar com índices usando expressões regulares, causas de erros podem ser acessadas usando <code>erro.cause</code></td>
+                </tr>
+                <tr>
+                    <td colspan=3 class="texto-pequeno">* Atualizações mostram apenas as principais mudanças.</td>
+                </tr>
+            </table>
+            
+            <p>A especificação está em sua <a href="https://www.ecma-international.org/news/ecma-international-approves-new-standards-6/">versão 13</a>, lançada em 22 de junho de 2022.</p>
+            <p>A versões da especificação ECMA até a versão 4 foram as mais rudimentares. Para manter a compatibilidade com códigos antigos, não podem ser feitas alterações que eliminem completamente alguns problemas iniciais, mas na versão ES5 e nas posteriores, passou a existir um modo estrito onde alguns destes erros são sanados.</p>
+            <p>A versão ES6 da especificação é uma das mais importantes na história da linguagem pois trouxe muitas funcionalidades do paradigma orientado a objetos, possibilitando o uso do JavaScript para implementar sistemas completos com estruturas de dados mais complexas.</p>
+            <p>A partir da versão ES6, o uso de novas funcionalidades automaticamente ativa o modo estrito, tornando as falhas das versões pré-ES5 como código legado. Ao usar, por exemplo, a palavra reservada <code>class</code> ou ao criar um módulo na versão ES6, todo código da classe ou módulo é automaticamente considerado estrito, e as inconsistências das versões iniciais ficam indisponíveis.</p>
+        </main>
+        <footer>
+            <p>juno takano &#x2022; BI3017371 &#x2022; <a href="https://github.com/jultty/mlw">repositório</a> &#x2022; <a href="http://sentora.bri.ifsp.edu.br/~bi3017371/">sentora</a></p>
+        </footer>
+    </div>
+</body>
+</html>
